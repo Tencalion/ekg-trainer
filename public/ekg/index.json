@@ -1,0 +1,34 @@
+{
+  "ekgCurves": [
+    {
+      "id": "normal",
+      "name": "Normální EKG",
+      "description": "Zdravý sinusový rytmus s pravidelnými komplexy QRS.",
+      "image": "/ekg/normal.svg"
+    },
+    {
+      "id": "fibrillation",
+      "name": "Fibrilace síní",
+      "description": "Nepravidelný rytmus bez viditelných P-vln.",
+      "image": "/ekg/fibrillation.svg"
+    },
+    {
+      "id": "ventricular",
+      "name": "Komorová tachykardie",
+      "description": "Široké QRS komplexy a rychlá srdeční frekvence.",
+      "image": "/ekg/ventricular.svg"
+    },
+    {
+      "id": "hypothermia",
+      "name": "Hypotermie",
+      "description": "Charakteristické J-vlny (Osbornovy vlny) při snížené tělesné teplotě.",
+      "image": "/ekg/hypothermia.svg"
+    },
+    {
+      "id": "digoxin",
+      "name": "Otrava digoxinem",
+      "description": "Deprese ST úseku ve tvaru 'mustache' (vousku).",
+      "image": "/ekg/digoxin.svg"
+    }
+  ]
+}
